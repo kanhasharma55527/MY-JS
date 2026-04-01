@@ -1,1 +1,1 @@
-console.log(Object.entries(tinderUser));
+  // console.log(Number1 + Number2)

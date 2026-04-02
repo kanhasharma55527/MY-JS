@@ -1,1 +1,3 @@
-  // console.log(Number1 + Number2)
+// let a = 10;
+// const b = 20;
+// var c = 30;

@@ -44,15 +44,15 @@
 // }
 // console.log(username);
 
-console.log(addon(5));
+// console.log(addon(5));
 
-function addon(num){
-    return num;
-}
+// function addon(num){
+//     return num;
+// }
 
 
-console.log(addtwo(5));
-const addtwo = function(num){
-    return num + 2;
-}
-addtwo(5);
+// console.log(addtwo(5));
+// const addtwo = function(num){
+//     return num + 2;
+// }
+// addtwo(5);

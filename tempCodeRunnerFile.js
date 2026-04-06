@@ -1,1 +1,1 @@
-const balance = 1000;
+val1 = undefined ?? 7;

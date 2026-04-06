@@ -1,1 +1,1 @@
-console.log(this.username);
+const balance = 1000;

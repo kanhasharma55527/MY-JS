@@ -1,1 +1,1 @@
-val1 = undefined ?? 7;
+console.log(myArray.length);

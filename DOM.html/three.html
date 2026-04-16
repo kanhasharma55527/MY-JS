@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | with kanha sharma</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+
+    <div class="parents">
+        <!-- this is comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+
+</body>
+
+<script>
+    // correct selector
+    const parent = document.querySelector('.parents')
+
+    console.log(parent)
+    console.log(parent.children)
+    console.log(parent.children[1].innerHTML)
+
+    // loop through children
+    for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML)
+    }
+
+    // change color of Tuesday
+    parent.children[1].style.color = "orange"
+
+    // correct property
+    console.log(parent.firstElementChild)
+
+    const dayOne = document.querySelector('.day')
+
+    console.log(dayOne)
+    console.log(dayOne.parentElement)
+    console.log(dayOne.nextElementSibling)
+
+    // actual nodes (includes text + comments)
+    console.log("NODES:", parent.childNodes)
+</script>
+
+</html>
